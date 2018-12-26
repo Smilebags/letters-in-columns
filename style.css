@@ -1,0 +1,84 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family:  Didot LT Std, serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 15vmin;
+    line-height: 0px;
+    height: 100%;
+    color: white;
+}
+body {
+    min-height: 100%;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    height: 100%;
+}
+
+.item {
+    position: relative;
+    overflow:hidden;
+    height: 100%;
+    outline: 0px solid rgba(255, 255, 255, 0.5);
+    outline-width: 1px;
+    background-image: url("./Gold.jpg");
+    background-size: cover;
+    background-position: 10% 50%;
+}
+
+.item-1 {
+    background-position-x: 20%;
+}
+
+.item-2 {
+    background-position-x: 30%;
+}
+
+.item-3 {
+    background-position-x: 45%;
+}
+
+.item-4 {
+    background-position-x: 60%;
+}
+
+.item-5 {
+    background-position-x: 75%;
+}
+
+.item-6 {
+    background-position-x: 85%;
+}
+
+
+.item p {
+    position: absolute;
+    display: block;
+}
+.item-1 p {
+    top: 10%;
+    right: -0.2em;
+}
+.item-2 p {
+    top: 40%;
+    left: -0.3em;
+}
+.item-3 p {
+    top: 20%;
+    left: -0.2em;
+}
+.item-4 p {
+    top: 50%;
+    left: -0.3em;
+}
+.item-5 p {
+    top: 30%;
+    left: -0.3em;
+}
+.item-6 p {
+    top: 60%;
+    left: -0.3em;
+}
